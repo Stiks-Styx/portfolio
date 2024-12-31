@@ -1,14 +1,14 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Quotes", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
   
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "I am a Computer Science Student, focusing on software development and algorithms.",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building a Console Base Game",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -94,46 +94,40 @@ export const navItems = [
       iconLists: ["/blender.svg"],
       link: "",
     },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
-    },
+    // {
+    //   id: 4,
+    //   title: "Lorem Ipsum",
+    //   des: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    //   img: "/p4.svg",
+    //   iconLists: [],
+    //   link: "",
+    // },
   ];
   
-  export const testimonials = [
+  export const quote = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Code is like humor. When you have to explain it, it’s bad.",
+      name: "John Alex B. Alcazar",
+      title: "Computer Science Student at LSPU - SPCC",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Programs must be written for people to read, and only incidentally for machines to execute.",
+      name: "John Alex B. Alcazar",
+      title: "Computer Science Student at LSPU - SPCC",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "First, solve the problem. Then, write the code.",
+      name: "John Alex B. Alcazar",
+      title: "Computer Science Student at LSPU - SPCC",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Debugging is like being the detective in a crime movie where you are also the murderer.",
+      name: "John Alex B. Alcazar",
+      title: "Computer Science Student at LSPU - SPCC",
     },
   ];
   
@@ -173,29 +167,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Computer Science Student",
+      desc: "Currently pursuing a degree in Computer Science, focusing on software development and algorithms.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "3D Modeling Enthusiast",
+      desc: "Create simple 3D models using tools like Blender for personal and academic projects.",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Personal Project Developer",
+      desc: "Work on personal projects, including developing a Unity game, to enhance my skills and build a portfolio.",
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Basic OpenCV/Facial Recognition Knowledge",
+      desc: "Gained basic knowledge in OpenCV and facial recognition techniques through self-study and experimentation.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -205,13 +199,26 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/Stiks-Styx",
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/x.svg",
+      link: "https://x.com/zealstyx",
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/john-alex-alcazar-248b5a32a/",
+    },
+    {
+      id: 4,
+      img: "/discord.svg",
+      link: "https://discord.com/users/1087289463362834496",
+    },
+    {
+      id: 5,
+      img: "/reddit.svg",
+      link: "https://www.reddit.com/user/Styx_stiks/",
     },
   ];
