@@ -8,7 +8,7 @@ const nextConfig = {
 const sentryWebpackPluginOptions = {
   // Organization and project must match your Sentry account
   org: "styxstiks", // Replace with the correct organization
-  project: "portfolio", // Replace with the correct project
+  project: "javascript-nextjs", // Replace with the correct project
 
   // For all available options, see:
   // https://github.com/getsentry/sentry-webpack-plugin#options
