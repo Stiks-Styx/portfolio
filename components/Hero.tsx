@@ -28,7 +28,7 @@ const Hero = () => {
                 />
 
                 <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                    Hi, I&apos;m Alex, a Computer Science Student.
+                    Hi, I&apos;m John Alex B. Alcazar, a Computer Science Student.
                 </p>
 
                 <a href="#about">
